@@ -1,0 +1,89 @@
+.ejemplo{
+  background-color: green ;
+}
+
+
+/* Hero*/
+.fondo{
+  background-color: #2F60CC;
+}
+.fondo a{
+  color: #ffffff;
+}
+.fondo a:hover{
+  background-color: #9B2FCC;
+}
+.ajuste{
+  margin-top: 30px;
+}
+.margen{
+  margin-top: 80px;
+}
+
+.border{
+  margin-top: 40px;
+}
+#accion{
+  color: white;
+}
+
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+.fondodos{
+  background: url("../img/img1.jpg")fixed;
+  padding: 95px ;
+}
+
+
+/*Termina hero*/
+
+
+
+@media screen and (max-width: 39.9375em){
+  .ajuste{
+    margin-top: 15px;
+    font-size: small;
+  }
+}
+.padre{
+  background: url("../img/img3.jpg")fixed 50% no-repeat;
+  display: flex;
+  height: 40vh;
+}
+.p{
+
+}
+.hijo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hijo img{
+  display: flex;
+  height: 124hv;
+  width: 254hv;
+}
+.hijo2{
+  display: flex;
+  align-items: center;
+  justify-content:flex-flex-start;
+}
