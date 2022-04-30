@@ -50,7 +50,15 @@
 }
 .fondodos{
   background: url("../img/img1.jpg")fixed;
-  padding: 95px ;
+  padding: 100px 0;
+}
+@media screen and (max-width: 39.9375em){
+ .margen{
+   margin-top: 25px;
+   }
+   .fondodos{
+    padding: 30px 0;
+  }
 }
 
 
@@ -70,7 +78,6 @@
   height: 40vh;
 }
 
-
 .hijo {
   display: flex;
   justify-content: center;
@@ -85,4 +92,9 @@
   display: flex;
   align-items: center;
   justify-content:flex-flex-start;
+}
+@media screen and (max-width: 39.9375em){
+  .padre{
+    height: 30vh;
+  }
 }
