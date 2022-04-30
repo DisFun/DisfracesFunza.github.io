@@ -12,7 +12,7 @@ $message = $message . "\nAtentamente:" . $name ;
 
 $asunto = 'Mensaje de... (Escribe como quieres que se vea el remitente de tu correo)';
 
-mail($para, $asunto, $message, $header);
+@mail($para, $asunto, $message, $header);
 
 header("Location:index.html");
 ?>
